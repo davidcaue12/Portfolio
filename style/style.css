@@ -133,8 +133,9 @@ body{
 
 .rodape .icons{
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
-    font-size: 3em;
+    font-size: 2.5em;
     padding-left: 10px;
 }
 
@@ -144,6 +145,56 @@ body{
 
 .full-screen{
     display: none;
+}
+
+
+
+
+
+
+@media (min-width:480px){
+
+    .mobile-icon{
+        display: none;
+    }
+    .nav-links{
+        display: flex;
+        gap: 2rem;
+        justify-content: right;
+        padding:10px 2rem;
+        font-size: 18px;
+    }
+
+    .nav-links a{
+        color: #f1f1f1;
+        border-bottom:2px solid;
+    }
+
+    .fa-brands{
+        font-size: 3rem;
+
+    }
+
+}
+
+@media (min-width:768px){
+
+    .name{
+        font-size: 2.5em;
+        padding-left: 5rem;
+    }
+
+    .btns{
+        margin-left: 5rem;
+    }
+
+    .fa-brands{
+        font-size: 4rem;
+    }
+
+    .rodape .icons{
+        padding-left: 5rem;
+    }
 }
 
 
