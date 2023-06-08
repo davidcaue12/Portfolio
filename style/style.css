@@ -93,7 +93,7 @@ body{
 }
 
 .principal{
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,7 +134,7 @@ body{
 .rodape .icons{
     display: flex;
     gap: 1em;
-    font-size: 2em;
+    font-size: 3em;
     padding-left: 10px;
 }
 
