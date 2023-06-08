@@ -219,12 +219,13 @@ body{
 
     .nav-links a{
         color: #f1f1f1;
+        border-bottom:2px solid rgba(241, 241, 241, 0);
         text-shadow: var(--text-shadow);
     }
 
     .nav-links a:hover{
-        border-bottom:2px solid;
-        transition:  all ease;
+        border-bottom:2px solid rgb(241, 241, 241);
+        transition: 1.5s all ease;
 
     }
 
