@@ -141,6 +141,10 @@ body{
     cursor: pointer;
 }
 
+#rodape a{
+    color: #f1f1f1;
+}
+
 .full-screen{
     display: none;
 }
