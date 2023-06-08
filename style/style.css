@@ -22,14 +22,14 @@
 body{
     color: var(--color-padrao);
     font-family: var(--font-padrao);
+    background: url(../assets/images/Bg-Image01.jpg) center/cover no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
     
 }
 
 #bg-01{
-    background: url(../assets/images/Bg-Image01.jpg) center/cover no-repeat;
-    height: 100vh;
-    background-attachment: fixed;
+    height: 100vh;  
 }
 
 .nav-links{
@@ -126,20 +126,19 @@ body{
 }
 
 
-.rodape{
+#rodape{
     display: flex;
     justify-content: space-between;
 }
 
-.rodape .icons{
+#rodape .icons{
     display: flex;
-    flex-wrap: wrap;
     gap: 1em;
     font-size: 2.5em;
     padding-left: 10px;
 }
 
-.rodape .fa-brands{
+#rodape .fa-brands{
     cursor: pointer;
 }
 
@@ -148,6 +147,47 @@ body{
 }
 
 
+#bg-02{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.about{
+    width: 100%;
+    height: 80vh;
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text{
+    margin: 0rem 1rem 2rem;
+}
+
+.title{
+    font-size: 2.5rem;
+}
+
+.text{
+    display: block;
+    max-width: 300px;
+    min-width: 300px;
+    padding-left: 1rem;
+}
+
+.photo{
+    width: 180px;
+    object-fit: cover;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
@@ -192,7 +232,7 @@ body{
         font-size: 4rem;
     }
 
-    .rodape .icons{
+    #rodape .icons{
         padding-left: 5rem;
     }
 }
