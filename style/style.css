@@ -219,8 +219,13 @@ body{
 
     .nav-links a{
         color: #f1f1f1;
-        border-bottom:2px solid;
         text-shadow: var(--text-shadow);
+    }
+
+    .nav-links a:hover{
+        border-bottom:2px solid;
+        transition:  all ease;
+
     }
 
     .fa-brands{
