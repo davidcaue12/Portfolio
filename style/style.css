@@ -24,7 +24,6 @@ body{
     font-family: var(--font-padrao);
     background: url(../assets/images/Bg-Image01.jpg) center/cover no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
     
 }
 
@@ -154,7 +153,7 @@ body{
 }
 
 .about{
-    width: 100%;
+    width: max-content;
     height: 80vh;
     text-align: justify;
     justify-content: center;
